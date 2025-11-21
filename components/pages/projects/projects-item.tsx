@@ -25,7 +25,7 @@ export default function ProjectsItem() {
         />
         <Label
           htmlFor="project-title"
-          className="peer-placeholder-shown:sr-only absolute -top-2 left-2 text-xs bg-background px-1"
+          className="peer-placeholder-shown:sr-only peer-focus:not-sr-only peer-focus:absolute absolute -top-2 left-2 text-xs bg-background px-1"
         >
           Título do Projeto
         </Label>
