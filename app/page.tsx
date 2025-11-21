@@ -1,5 +1,7 @@
+import Container from "@/components/core/container";
+
 export default function LandingPage() {
   return (
-    <div>landing page</div>
+    <Container>landing page</Container>
   );
 }
