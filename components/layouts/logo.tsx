@@ -12,9 +12,11 @@ const bungee = Bungee({
 
 export default function Logo() {
   return (
-    <Link href="/homepage" className={cn("flex gap-2 items-center", `${bungee.className} text-3xl`)}>
-    <Image className="size-8" src={logo} alt="logo" />
-      <span>WB</span>
-    </Link>
+    <div>
+      <Link href="/homepage" className={cn("flex gap-2 items-center", `${bungee.className} text-3xl`)}>
+      <Image className="size-8" src={logo} alt="logo" />
+        <span className="text-black">WB</span>
+      </Link>
+    </div>
   );
 }
